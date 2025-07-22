@@ -1,0 +1,16 @@
+base_type: coder
+customizations:
+  capabilities:
+  - architecture_design
+  - system_design
+  - mentoring
+  max_tokens: 8000
+  temperature: 0.1
+description: Старший разработчик с архитектурными навыками
+name: Senior Software Developer
+optional_capabilities:
+- performance_optimization
+- security_review
+required_capabilities:
+- code_generation
+- code_review

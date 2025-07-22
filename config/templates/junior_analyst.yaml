@@ -1,0 +1,14 @@
+base_type: analyst
+customizations:
+  capabilities:
+  - basic_data_analysis
+  - simple_reporting
+  max_tokens: 2000
+  temperature: 0.1
+description: Младший аналитик данных для базовых задач
+name: Junior Data Analyst
+optional_capabilities:
+- visualization
+- statistical_analysis
+required_capabilities:
+- data_analysis

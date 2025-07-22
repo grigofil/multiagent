@@ -1,0 +1,15 @@
+base_type: security
+customizations:
+  capabilities:
+  - penetration_testing
+  - compliance_audit
+  - incident_response
+  max_tokens: 5000
+  temperature: 0.05
+description: Эксперт по кибербезопасности
+name: Security Expert
+optional_capabilities:
+- threat_modeling
+- vulnerability_assessment
+required_capabilities:
+- security_analysis

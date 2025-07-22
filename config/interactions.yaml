@@ -1,0 +1,48 @@
+# Сценарии взаимодействия агентов
+workflows:
+  code_review_workflow:
+    name: "Code Review Workflow"
+    description: "Сценарий разработки и ревью кода"
+    agents:
+      - coder
+      - reviewer
+    flow:
+      - step: 1
+        agent: coder
+        action: "generate_code"
+        input: "task_description"
+        output: "generated_code"
+      
+      - step: 2
+        agent: reviewer
+        action: "review_code"
+        input: "generated_code"
+        output: "review_feedback"
+      
+      - step: 3
+        agent: coder
+        action: "improve_code"
+        input: ["generated_code", "review_feedback"]
+        output: "improved_code"
+    
+    max_iterations: 3
+    
+  data_analysis_workflow:
+    name: "Data Analysis Workflow"
+    description: "Сценарий анализа данных"
+    agents:
+      - analyst
+    flow:
+      - step: 1
+        agent: analyst
+        action: "analyze_data"
+        input: "data_input"
+        output: "analysis_result"
+    
+    max_iterations: 1
+
+# Типы взаимодействий
+interaction_types:
+  sequential: "Последовательное выполнение задач"
+  parallel: "Параллельное выполнение задач"
+  iterative: "Итеративное улучшение результатов" 

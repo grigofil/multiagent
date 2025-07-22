@@ -1,0 +1,29 @@
+2025-07-20T22:15:48.837840+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:15:48.837840+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:15:48.837840+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:15:48.837840+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:16:53.775805+0300 | ERROR | Ошибка при инициализации агентов: 'dict' object has no attribute 'model'
+2025-07-20T22:16:53.775805+0300 | ERROR | Ошибка при инициализации агентов: 'dict' object has no attribute 'model'
+2025-07-20T22:16:53.775805+0300 | ERROR | Ошибка при инициализации агентов: 'dict' object has no attribute 'model'
+2025-07-20T22:20:32.463284+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:20:32.463284+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:20:32.463284+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:21:40.309764+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:21:40.309764+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:21:40.309764+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:21:40.331784+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:21:40.331784+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:21:40.331784+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:21:40.331784+0300 | ERROR | Ошибка при выполнении рабочего процесса 'test_data_analysis': Checkpointer requires one or more of the following 'configurable' keys: thread_id, checkpoint_ns, checkpoint_id
+2025-07-20T22:22:33.771210+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:22:33.771210+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:22:33.771210+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:23:02.792102+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:23:02.792102+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:23:02.792102+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:26:17.485479+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:26:17.485479+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:26:17.485479+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:26:41.451397+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:26:41.451397+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-07-20T22:26:41.451397+0300 | ERROR | Ошибка при инициализации агентов: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable

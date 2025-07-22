@@ -1,0 +1,421 @@
+# Конфигурация ролей агентов для Итерации №4
+# Определяет требования, возможности и иерархию ролей
+
+roles:
+  # === АНАЛИТИЧЕСКИЕ РОЛИ ===
+  data_analyst:
+    name: "Data Analyst"
+    level: "junior"
+    description: "Аналитик данных для базовых задач анализа"
+    required_capabilities:
+      - data_analysis
+      - basic_statistics
+      - report_generation
+    suggested_capabilities:
+      - data_visualization
+      - sql_queries
+      - excel_analysis
+    responsibilities:
+      - "Анализ структурированных данных"
+      - "Создание базовых отчетов"
+      - "Подготовка данных для анализа"
+    tools:
+      - "Excel"
+      - "SQL"
+      - "Python (pandas, numpy)"
+    career_path:
+      - "senior_data_analyst"
+      - "data_scientist"
+      - "business_analyst"
+
+  senior_data_analyst:
+    name: "Senior Data Analyst"
+    level: "senior"
+    description: "Опытный аналитик данных с экспертизой в сложных проектах"
+    required_capabilities:
+      - data_analysis
+      - statistical_modeling
+      - advanced_visualization
+      - business_intelligence
+    suggested_capabilities:
+      - machine_learning
+      - predictive_analytics
+      - data_engineering
+    responsibilities:
+      - "Сложный анализ данных"
+      - "Создание дашбордов"
+      - "Менторинг младших аналитиков"
+      - "Взаимодействие с заинтересованными сторонами"
+    tools:
+      - "Python (scikit-learn, matplotlib, seaborn)"
+      - "Tableau/Power BI"
+      - "SQL (advanced)"
+      - "R"
+    career_path:
+      - "data_scientist"
+      - "analytics_manager"
+      - "data_engineer"
+
+  data_scientist:
+    name: "Data Scientist"
+    level: "expert"
+    description: "Эксперт по машинному обучению и продвинутой аналитике"
+    required_capabilities:
+      - machine_learning
+      - statistical_modeling
+      - predictive_analytics
+      - data_engineering
+    suggested_capabilities:
+      - deep_learning
+      - big_data_processing
+      - mlops
+    responsibilities:
+      - "Разработка ML моделей"
+      - "A/B тестирование"
+      - "Исследования в области ML"
+      - "Архитектура данных"
+    tools:
+      - "Python (scikit-learn, tensorflow, pytorch)"
+      - "Spark"
+      - "Docker"
+      - "MLflow"
+    career_path:
+      - "senior_data_scientist"
+      - "ml_engineer"
+      - "research_scientist"
+
+  # === РАЗРАБОТЧИКИ ===
+  junior_developer:
+    name: "Junior Developer"
+    level: "junior"
+    description: "Младший разработчик для базовых задач программирования"
+    required_capabilities:
+      - code_generation
+      - basic_debugging
+      - unit_testing
+    suggested_capabilities:
+      - code_review
+      - documentation
+      - version_control
+    responsibilities:
+      - "Написание простого кода"
+      - "Исправление багов"
+      - "Написание тестов"
+    tools:
+      - "Python"
+      - "Git"
+      - "IDE (PyCharm, VSCode)"
+    career_path:
+      - "developer"
+      - "frontend_developer"
+      - "backend_developer"
+
+  developer:
+    name: "Software Developer"
+    level: "middle"
+    description: "Разработчик с опытом в создании приложений"
+    required_capabilities:
+      - code_generation
+      - code_review
+      - debugging
+      - testing
+    suggested_capabilities:
+      - architecture_design
+      - performance_optimization
+      - security_best_practices
+    responsibilities:
+      - "Разработка приложений"
+      - "Ревью кода"
+      - "Оптимизация производительности"
+      - "Работа с базами данных"
+    tools:
+      - "Python (Django, Flask, FastAPI)"
+      - "Databases (PostgreSQL, MongoDB)"
+      - "Docker"
+      - "CI/CD"
+    career_path:
+      - "senior_developer"
+      - "tech_lead"
+      - "architect"
+
+  senior_developer:
+    name: "Senior Developer"
+    level: "senior"
+    description: "Старший разработчик с архитектурными навыками"
+    required_capabilities:
+      - code_generation
+      - code_review
+      - architecture_design
+      - system_design
+      - mentoring
+    suggested_capabilities:
+      - performance_optimization
+      - security_review
+      - devops
+    responsibilities:
+      - "Архитектурные решения"
+      - "Менторинг команды"
+      - "Код ревью"
+      - "Техническое планирование"
+    tools:
+      - "Python (advanced)"
+      - "Microservices"
+      - "Cloud platforms"
+      - "Kubernetes"
+    career_path:
+      - "tech_lead"
+      - "architect"
+      - "engineering_manager"
+
+  # === БЕЗОПАСНОСТЬ ===
+  security_analyst:
+    name: "Security Analyst"
+    level: "junior"
+    description: "Аналитик безопасности для базовых задач"
+    required_capabilities:
+      - security_analysis
+      - vulnerability_assessment
+      - basic_penetration_testing
+    suggested_capabilities:
+      - threat_modeling
+      - incident_response
+      - compliance_checking
+    responsibilities:
+      - "Анализ уязвимостей"
+      - "Мониторинг безопасности"
+      - "Базовое тестирование на проникновение"
+    tools:
+      - "Nmap"
+      - "Wireshark"
+      - "Metasploit"
+      - "Burp Suite"
+    career_path:
+      - "security_engineer"
+      - "penetration_tester"
+      - "security_consultant"
+
+  security_engineer:
+    name: "Security Engineer"
+    level: "senior"
+    description: "Инженер безопасности с экспертизой в защите систем"
+    required_capabilities:
+      - security_analysis
+      - penetration_testing
+      - security_architecture
+      - incident_response
+    suggested_capabilities:
+      - threat_modeling
+      - compliance_audit
+      - security_automation
+    responsibilities:
+      - "Архитектура безопасности"
+      - "Тестирование на проникновение"
+      - "Реагирование на инциденты"
+      - "Автоматизация безопасности"
+    tools:
+      - "Advanced security tools"
+      - "SIEM systems"
+      - "Security automation"
+      - "Cloud security"
+    career_path:
+      - "security_architect"
+      - "security_manager"
+      - "chief_security_officer"
+
+  # === DEVOPS ===
+  devops_engineer:
+    name: "DevOps Engineer"
+    level: "middle"
+    description: "Инженер DevOps для автоматизации процессов"
+    required_capabilities:
+      - ci_cd_pipeline_design
+      - infrastructure_automation
+      - container_orchestration
+      - monitoring_setup
+    suggested_capabilities:
+      - cloud_architecture
+      - security_automation
+      - disaster_recovery
+    responsibilities:
+      - "Автоматизация CI/CD"
+      - "Управление инфраструктурой"
+      - "Мониторинг систем"
+      - "Контейнеризация"
+    tools:
+      - "Docker"
+      - "Kubernetes"
+      - "Terraform"
+      - "Jenkins/GitLab CI"
+    career_path:
+      - "senior_devops_engineer"
+      - "platform_engineer"
+      - "site_reliability_engineer"
+
+  # === СПЕЦИАЛИЗИРОВАННЫЕ РОЛИ ===
+  ml_engineer:
+    name: "Machine Learning Engineer"
+    level: "senior"
+    description: "Инженер ML для развертывания и обслуживания моделей"
+    required_capabilities:
+      - machine_learning
+      - mlops
+      - model_deployment
+      - performance_optimization
+    suggested_capabilities:
+      - deep_learning
+      - big_data_processing
+      - cloud_ml_platforms
+    responsibilities:
+      - "Развертывание ML моделей"
+      - "MLOps процессы"
+      - "Оптимизация производительности"
+      - "Мониторинг моделей"
+    tools:
+      - "MLflow"
+      - "Kubeflow"
+      - "TensorFlow Serving"
+      - "Cloud ML platforms"
+    career_path:
+      - "senior_ml_engineer"
+      - "ml_architect"
+      - "ai_engineer"
+
+  data_engineer:
+    name: "Data Engineer"
+    level: "senior"
+    description: "Инженер данных для построения data pipelines"
+    required_capabilities:
+      - data_engineering
+      - etl_pipeline_design
+      - big_data_processing
+      - data_architecture
+    suggested_capabilities:
+      - real_time_processing
+      - data_governance
+      - cloud_data_platforms
+    responsibilities:
+      - "Построение data pipelines"
+      - "Архитектура данных"
+      - "ETL процессы"
+      - "Data governance"
+    tools:
+      - "Apache Spark"
+      - "Apache Kafka"
+      - "Airflow"
+      - "Snowflake/BigQuery"
+    career_path:
+      - "senior_data_engineer"
+      - "data_architect"
+      - "chief_data_officer"
+
+# Иерархия ролей
+hierarchy:
+  # Аналитические роли
+  data_analyst:
+    - senior_data_analyst
+    - data_scientist
+  
+  senior_data_analyst:
+    - data_scientist
+    - analytics_manager
+  
+  data_scientist:
+    - senior_data_scientist
+    - ml_engineer
+  
+  # Разработчики
+  junior_developer:
+    - developer
+    - frontend_developer
+    - backend_developer
+  
+  developer:
+    - senior_developer
+    - full_stack_developer
+  
+  senior_developer:
+    - tech_lead
+    - architect
+    - engineering_manager
+  
+  # Безопасность
+  security_analyst:
+    - security_engineer
+    - penetration_tester
+  
+  security_engineer:
+    - security_architect
+    - security_manager
+  
+  # DevOps
+  devops_engineer:
+    - senior_devops_engineer
+    - platform_engineer
+    - site_reliability_engineer
+  
+  # Специализированные роли
+  ml_engineer:
+    - senior_ml_engineer
+    - ml_architect
+  
+  data_engineer:
+    - senior_data_engineer
+    - data_architect
+
+# Требования к компетенциям по уровням
+competency_levels:
+  junior:
+    min_experience_years: 0
+    max_experience_years: 2
+    required_certifications: []
+    suggested_certifications: []
+  
+  middle:
+    min_experience_years: 2
+    max_experience_years: 5
+    required_certifications: []
+    suggested_certifications: ["AWS", "Azure", "Google Cloud"]
+  
+  senior:
+    min_experience_years: 5
+    max_experience_years: 10
+    required_certifications: []
+    suggested_certifications: ["Architecture", "Security", "Cloud Expert"]
+  
+  expert:
+    min_experience_years: 8
+    max_experience_years: 15
+    required_certifications: []
+    suggested_certifications: ["Enterprise Architecture", "Security Expert"]
+
+# Матрица совместимости ролей
+role_compatibility:
+  data_analyst:
+    compatible_with:
+      - developer
+      - data_engineer
+      - business_analyst
+  
+  developer:
+    compatible_with:
+      - data_analyst
+      - devops_engineer
+      - security_engineer
+  
+  security_engineer:
+    compatible_with:
+      - developer
+      - devops_engineer
+      - data_engineer
+  
+  devops_engineer:
+    compatible_with:
+      - developer
+      - security_engineer
+      - data_engineer
+  
+  ml_engineer:
+    compatible_with:
+      - data_scientist
+      - data_engineer
+      - devops_engineer 

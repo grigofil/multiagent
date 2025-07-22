@@ -1,0 +1,4 @@
+2025-07-20T22:31:55.874169+0300 | ERROR | Ошибка при логировании взаимодействия: 'str' object has no attribute 'message_type'
+2025-07-20T22:31:55.894753+0300 | ERROR | Ошибка при логировании взаимодействия: 'str' object has no attribute 'message_type'
+2025-07-20T22:31:55.897777+0300 | ERROR | Ошибка при логировании взаимодействия: 'str' object has no attribute 'message_type'
+2025-07-20T22:31:55.907635+0300 | ERROR | Ошибка при логировании взаимодействия: 'str' object has no attribute 'message_type'

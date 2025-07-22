@@ -1,0 +1,2 @@
+2025-07-20 22:30:40.571 | WARNING  | src.utils.config_loader:get_api_key:83 - API ключ не найден в переменных окружения
+2025-07-20 22:53:15.397 | WARNING  | src.utils.config_loader:get_api_key:83 - API ключ не найден в переменных окружения
