@@ -169,19 +169,19 @@ agents:
 
 ```bash
 # .env
-OPENAI_API_KEY=sk-your-openai-api-key
-ANTHROPIC_API_KEY=sk-ant-your-anthropic-api-key
-GOOGLE_API_KEY=your-google-api-key
+# API ключи для LLM провайдеров
+OPENAI_API_KEY=your_openai_api_key_here
 
-AGENT_SYSTEM_ENV=development
-LOG_LEVEL=DEBUG
-DEBUG_MODE=true
+# Альтернативные переменные
+LLM_API_KEY=your_llm_api_key_here
 
-DATABASE_URL=postgresql://user:password@localhost/agents_db
-MONITORING_ENABLED=true
-METRICS_ENDPOINT=http://localhost:9090
-REDIS_URL=redis://localhost:6379
-CACHE_TTL=3600
+# Настройки логирования
+LOG_LEVEL=INFO
+LOG_FILE=logs/multiagent.log
+
+# Настройки системы
+MAX_ITERATIONS=5
+TIMEOUT=300 
 ```
 
 ## 📚 Примеры использования
